@@ -1,4 +1,4 @@
-# webstorm设置自动编辑LESS
+# webstorm设置自动编译LESS
 1. 安装less环境
 2. npm install less -g
 3. 打开webstorm,File=>Setting=>Tools=>FileWatcher
@@ -6,7 +6,7 @@
     1. Pragramm: C:\Users\c-zouzhongxing1\AppData\Roaming\npm\lessc.cmd
     2. Arguments: $FileName$ $FileParentDir$\assets\css\$FileNameWithoutExtension$.css --compress --source-map
 
-# webstorm设置自动编辑scss,sass
+# webstorm设置自动编译scss,sass
 1. 安装scss环境
 2. npm install sass -g
 3. 打开webstorm,File=>Setting=>Tools=>FileWatcher
