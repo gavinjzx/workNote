@@ -5,7 +5,7 @@
 > uglifyjs a.js -m -c -o a.min.js
 > PS:-m混淆，-C压缩，-o输出 
 ## 参数说明
->   Usage: uglifyjs [options] [files...]
+````   Usage: uglifyjs [options] [files...]
   
     Options:
   
@@ -33,7 +33,7 @@
       --warn                                   Print warning messages.
       --wrap <name>                            Embed everything as a function with “exports” corresponding to “name” globally.
       -h, --help                               output usage information
-      
+````
       
 ## 以下内容来自张鑫旭：
 [https://www.zhangxinxu.com/wordpress/2013/01/uglifyjs-compress-js/]
