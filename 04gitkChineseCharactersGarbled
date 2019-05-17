@@ -1,0 +1,5 @@
+查找gitconfig
+打开后在[gui]后添加一行，内容如下：
+	encoding = utf-8
+ 
+保存。重启gitk，发现乱码没有了。
